@@ -74,6 +74,15 @@ img{
 	width: 95% !important;
 	max-width: 1200px;
 	margin: auto;
+	&.-w65{
+		width: 75% !important;
+		@include mq(tb){
+			width: 65% !important;
+		}
+	}
+	&.-w75{
+		width: 75% !important;
+	}
 	&.-s100{
 		width: 100% !important;
 	}

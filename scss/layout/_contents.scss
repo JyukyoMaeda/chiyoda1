@@ -74,6 +74,28 @@
 					padding: 0% 24%;
 				}
 			}
+			// シュミレーションボタン
+			&.-simulation_btn{
+				top: 90%;
+				left: 50%;
+				transform: translateX(-50%);
+				width: 45%;
+				@include mq(sp){
+
+				}
+				@include mq(tb){
+					top: 87%;
+					width: 17%;
+				}
+			}
+			// アクセススライダー
+			&.-access-sliderArea{
+				@include mq(sp){
+					top: 31%;
+					left: 50%;
+					transform: translateX(-50%);
+				}
+			}
 
 
 			.l-contentsBox--wrapper{
@@ -115,6 +137,23 @@
 				}
 				@include mq(tb-pc1400){
 					width: 6%;
+				}
+			}
+		}
+	}
+	&.-contactArea{
+		.imgBox{
+			&.-bg{
+				background: $contact-area_bg;
+			}
+		}
+		.l-contentsBox{
+			&.-contact_btnArea{
+				top: 37%;
+				left: 50%;
+				transform: translateX(-50%);
+				@include mq(tb){
+					top: 46%;
 				}
 			}
 		}

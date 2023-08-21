@@ -42,6 +42,16 @@
                 // box-shadow: 1px 1px 4px 0px $item-hover--bg;
             }
         }
+
+        // Red
+        &.-red_btn{
+            background: $red-btn-color;
+            &:hover{
+                background: $red-btn-color_hover;
+                border-radius: 20px;
+                overflow: hidden;
+            }
+        }
     }
 
 
