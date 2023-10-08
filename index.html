@@ -15,12 +15,12 @@
     <link rel="stylesheet" href="css/style.css">
     <link href="https://use.fontawesome.com/releases/v5.0.6/css/all.css" rel="stylesheet">
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
-    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!-- <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet"> -->
 
     <script src="js/jquery-3.6.3.min.js"></script>
     <script src="js/query.colorbox-min.js"></script>
-    <script src="js/slick.min.js"></script>
-    <script src="js/aos.js"></script>
+    <!-- <script src="js/slick.min.js"></script> -->
+    <!-- <script src="js/aos.js"></script> -->
     <script src="js/menu.js"></script>
     <script src="js/pagetop.js"></script>
 
@@ -78,9 +78,10 @@
                             <div class="navi_item"><a href="#">トップ</a></div>
                             <div class="navi_item"><a href="#content1">プラン</a></div>
                             <div class="navi_item"><a href="#content2">設備・仕様</a></div>
-                            <div class="navi_item"><a href="#content3">周辺環境</a></div>
-                            <div class="navi_item"><a href="#content4">交通アクセス</a></div>
-                    </div>
+                            <div class="navi_item"><a href="#content3">住協の家づくり</a></div>
+                            <div class="navi_item"><a href="#content4">周辺環境</a></div>
+                            <div class="navi_item"><a href="#content5">交通アクセス</a></div>
+                        </div>
                     <ul class="btnArea">
                             <li><a href="https://www.jyu-g.co.jp/contents/tour?checkid=712807995">見学予約</a></li>
                             <li><a href="https://www.jyu-g.co.jp/contents/inquiry?checkid=712807995">お問い合わせ</a></li>
@@ -97,191 +98,166 @@
         </div>
         <div class="l-container">
             <!-- 【　f-view　】ファーストビュー -->
+            <div class="l-contents -img-bg l-mgb_20">
+                <div class="imgBox">
+                    <img class="pc" src="images/bg/f-view_new.png" alt="坂戸市千代田1丁目_新築分譲住宅">
+                    <img class="sp" src="images/bg/f-view_new_s.png" alt="坂戸市千代田1丁目_新築分譲住宅">
+                </div>
+            </div>
             <div class="l-contents -img-bg">
                 <div class="imgBox">
-                    <img class="pc" src="images/bg/f-view.jpg" alt="坂戸市千代田1丁目_4LDK&">
-                    <img class="sp" src="images/bg/f-view_s.jpg" alt="坂戸市千代田1丁目">
+                    <img class="pc" src="images/bg/top-content01.png" alt="坂戸駅・若葉駅徒歩圏に住協クオリティの新築戸建が誕生します。ガーデンスペース、カースペース2台分、門柱、自転車置き場">
+                    <img class="sp" src="images/bg/top-content01_s.png" alt="坂戸駅・若葉駅徒歩圏に住協クオリティの新築戸建が誕生します。ガーデンスペース、カースペース2台分、門柱、自転車置き場">
                 </div>
             </div>
             <!-- 01_プラン_コンテンツ_01 -->
-            <div id="content1" class="l-contents -img-bg">
-                <div class="imgBox">
-                    <img class="pc l-pdt_10" src="images/bg/plan-bg.jpg" alt="">
-                    <img class="sp" src="images/bg/plan-bg_s.jpg" alt="">
+            <div id="content1" class="l-contents -img-bg l-mgb_10 -s_5">
+                <div class="pc imgBox -parallax -parallax_planBg">
+                    <img class="pc" src="images/bg/top-content02.png" alt="PLAN（間取り）ハイスタッド仕様で開放感のある天井高。">
                 </div>
-                <div class="l-contentsBox -simulation_btn">
-                    <div class="" data-aos="flip-down">
-                        <img class="l-mgb_2" src="images/item/simulation_des.png" alt="">
-                        <a class="l-linkImg -p03 -red_btn" href="https://www.jyu-g.co.jp/simulation02">
-                            <img src="images/btn/simulation_btn.png" alt="">
-                        </a>
-                    </div>
+                <div class="sp imgBox">
+                    <img class="sp" src="images/bg/top-content02_s.png" alt="PLAN（間取り）ハイスタッド仕様で開放感のある天井高。">
                 </div>
             </div>
-            <!-- contact*4 -->
-            <div class="l-contents -img-bg -contactArea l-mgb_5_s" data-aos="fade">
-                <div class="imgBox -bg">
-                    <img class="pc" src="images/bg/contact-bg.png" alt="お問い合わせはこちら">
-                    <img class="sp" src="images/bg/contact-bg_s.png" alt="">
-                </div>
-                <div class="l-contentsBox -contact_btnArea">
-                    <div class="l-flex--area w1200 -w65">
-                        <div class="l-flex--contents -contact-box">
-                            <div class="flexItem">
-                                <a class="l-linkImg -contact-box -box01" href="https://www.jyu-g.co.jp/contents/inquiry?checkid=712807995">
-                                    <img src="images/btn/contact_box_01_w_new.png" alt="お問い合わせ">
-                                </a>
-                            </div>
-                            <div class="flexItem">
-                                <a class="l-linkImg -contact-box -box02" href="https://www.jyu-g.co.jp/contents/tour?checkid=712807995">
-                                    <img src="images/btn/contact_box_02_w.png" alt="見学予約">
-                                </a>
-                            </div>
-                            <div class="flexItem">
-                                <a class="l-linkImg -contact-box -box03" href="https://www.jyu-g.co.jp/contents/regist?form_mode=1">
-                                    <img src="images/btn/contact_box_03_w.png" alt="会員登録">
-                                </a>
-                            </div>
-                            <div class="flexItem">
-                                <a class="l-linkImg -contact-box -box04" href="https://www.jyu-g.co.jp/contents/kantan">
-                                    <img src="images/btn/contact_box_04_new.png" alt="簡単資料請求">
-                                </a>
-                            </div>
+            <!-- contact*2 -->
+            <div class="l-contents -img-bg -contactArea l-mgb_5">
+                <img class="pc w1200 l-mgb_10" src="images/item/contact-title.png" alt="住まい探しのご相談・現地へのご見学など全て無料で承っております。">
+                <img class="sp l-mgb_5" src="images/item/contact-title_s.png" alt="住まい探しのご相談・現地へのご見学など全て無料で承っております。">
+                <div class="l-flex--area  w1200 -w65">
+                    <div class="l-flex--contents -contact-box">
+                        <div class="flexItem">
+                            <a class="l-linkImg -contact-box -box01" href="https://www.jyu-g.co.jp/contents/inquiry?checkid=712807995">
+                                <img src="images/btn/contact_box_01_w_new.png" alt="お問い合わせ">
+                            </a>
+                        </div>
+                        <div class="flexItem">
+                            <a class="l-linkImg -contact-box -box02" href="https://www.jyu-g.co.jp/contents/tour?checkid=712807995">
+                                <img src="images/btn/contact_box_02_w.png" alt="見学予約">
+                            </a>
                         </div>
                     </div>
                 </div>
             </div>
             <!-- 02_設備・仕様_コンテンツ -->
             <div id="content2" class="l-contents">
-                <img class="pc" src="images/bg/setsubi_bg.jpg" alt="">
-                <img class="sp l-mgb_5" src="images/bg/setsubi_bg_s.jpg" alt="">
+                <img class="pc" src="images/bg/top-content03.png" alt="設備・仕様　毎日のことだから、家計にも優しい設備を採用しています。">
+                <img class="sp" src="images/bg/top-content03_s.png" alt="設備・仕様　毎日のことだから、家計にも優しい設備を採用しています。">
             </div>
-            <!-- contact*4 -->
-            <div class="l-contents -img-bg -contactArea  l-mgb_5_s" data-aos="fade">
-                <div class="imgBox -bg">
-                    <img class="pc" src="images/bg/contact-bg.png" alt="お問い合わせはこちら">
-                    <img class="sp" src="images/bg/contact-bg_s.png" alt="">
-                </div>
-                <div class="l-contentsBox -contact_btnArea">
-                    <div class="l-flex--area w1200 -w65">
-                        <div class="l-flex--contents -contact-box">
-                            <div class="flexItem">
-                                <a class="l-linkImg -contact-box -box01" href="https://www.jyu-g.co.jp/contents/inquiry?checkid=712807995">
-                                    <img src="images/btn/contact_box_01_w_new.png" alt="お問い合わせ">
-                                </a>
-                            </div>
-                            <div class="flexItem">
-                                <a class="l-linkImg -contact-box -box02" href="https://www.jyu-g.co.jp/contents/tour?checkid=712807995">
-                                    <img src="images/btn/contact_box_02_w.png" alt="見学予約">
-                                </a>
-                            </div>
-                            <div class="flexItem">
-                                <a class="l-linkImg -contact-box -box03" href="https://www.jyu-g.co.jp/contents/regist?form_mode=1">
-                                    <img src="images/btn/contact_box_03_w.png" alt="会員登録">
-                                </a>
-                            </div>
-                            <div class="flexItem">
-                                <a class="l-linkImg -contact-box -box04" href="https://www.jyu-g.co.jp/contents/kantan">
-                                    <img src="images/btn/contact_box_04_new.png" alt="簡単資料請求">
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!-- 03_周辺環境_コンテンツ -->
-            <div id="content3" class="l-contents -img">
-                <img class="pc" src="images/bg/location_bg.jpg" alt="">
-                <img class="sp l-mgb_5" src="images/bg/location_bg_s.png" alt="">
-            </div>
-            <!-- contact*4 -->
-            <div class="l-contents -img-bg -contactArea  l-mgb_10 -s_1" data-aos="fade">
-                <div class="imgBox -bg">
-                    <img class="pc" src="images/bg/contact-bg.png" alt="お問い合わせはこちら">
-                    <img class="sp" src="images/bg/contact-bg_s.png" alt="">
-                </div>
-                <div class="l-contentsBox -contact_btnArea">
-                    <div class="l-flex--area w1200 -w65">
-                        <div class="l-flex--contents -contact-box">
-                            <div class="flexItem">
-                                <a class="l-linkImg -contact-box -box01" href="https://www.jyu-g.co.jp/contents/inquiry?checkid=712807995">
-                                    <img src="images/btn/contact_box_01_w_new.png" alt="お問い合わせ">
-                                </a>
-                            </div>
-                            <div class="flexItem">
-                                <a class="l-linkImg -contact-box -box02" href="https://www.jyu-g.co.jp/contents/tour?checkid=712807995">
-                                    <img src="images/btn/contact_box_02_w.png" alt="見学予約">
-                                </a>
-                            </div>
-                            <div class="flexItem">
-                                <a class="l-linkImg -contact-box -box03" href="https://www.jyu-g.co.jp/contents/regist?form_mode=1">
-                                    <img src="images/btn/contact_box_03_w.png" alt="会員登録">
-                                </a>
-                            </div>
-                            <div class="flexItem">
-                                <a class="l-linkImg -contact-box -box04" href="https://www.jyu-g.co.jp/contents/kantan">
-                                    <img src="images/btn/contact_box_04_new.png" alt="簡単資料請求">
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!-- 04_交通アクセス_コンテンツ -->
-            <div id="content4" class="l-contents -img-bg l-mgb_10">
+            <!-- 03_住協の家づくり_コンテンツ -->
+            <div id="content3" class="l-contents -img-bg l-mgb_20 -s_1">
                 <div class="imgBox">
-                    <img class="pc" src="images/bg/access_bg.jpg" alt="">
-                    <img class="sp" src="images/bg/access_bg_s.png" alt="">
+                    <img class="pc" src="images/bg/top-content04.png" alt="安心のアフターサービスと耐震構造でお客様の家づくりをサポート">
+                    <img class="sp" src="images/bg/top-content04_s.png" alt="安心のアフターサービスと耐震構造でお客様の家づくりをサポート">
                 </div>
-                <div class="sp l-contentsBox -access-sliderArea">
-                    <div class="l-slider">
-                        <div class="access-slider access-slider01">
-                            <div class="slick-img l-slickImg">
-                                <img class="sp" src="images/slider/access-item01.png" alt=""/>
-                            </div>
-                            <div class="slick-img l-slickImg">
-                                <img class="sp" src="images/slider/access-item02.png" alt=""/>
-                            </div>
-                            <div class="slick-img l-slickImg">
-                                <img class="sp" src="images/slider/access-item03.png" alt=""/>
-                            </div>
+                <div class="l-contentsBox -buildBtn01">
+                    <a class="l-linkImg -p03" href="https://www.jyu-g.co.jp/special/relation_link/construction/">
+                        <img src="images/btn/build_btn01.png" alt="耐震・構造">
+                    </a>
+                </div>
+                <div class="l-contentsBox -buildBtn02">
+                    <a class="l-linkImg -p03" href="https://www.jyu-g.co.jp/special/relation_link/maintenance/">
+                        <img src="images/btn/build_btn02.png" alt="最長35年保証">
+                    </a>
+                </div>
+            </div>
+            <!-- カタログ -->
+            <div class="l-contents -img-bg w1200 w93-s l-mgb_20 -s_5">
+                <div class="imgBox">
+                    <img class="pc" src="images/bg/catalog_bg.png" alt="住協のこと、家づくりのことがわかるカタログプレゼント！">
+                    <img class="sp" src="images/bg/catalog_bg_s.png" alt="住協のこと、家づくりのことがわかるカタログプレゼント！">
+                </div>
+                <div class="l-contentsBox -calalogBtn">
+                    <a class="l-linkImg -p03" href="https://www.jyu-g.co.jp/contents/kantan">
+                        <img src="images/btn/catalog_btn.png" alt="資料請求はこちら">
+                    </a>
+                </div>
+            </div>
+            <!-- 坂戸市の特徴 -->
+            <div class="l-contents -img l-mgb_10 -s_1">
+                <img class="pc" src="images/bg/top-content05.png" alt="都内主要駅まで直通で繋がる、暮らし潤う坂戸市ー。">
+                <img class="sp" src="images/bg/top-content05_s.png" alt="都内主要駅まで直通で繋がる、暮らし潤う坂戸市ー。">
+            </div>
+            <!-- 04_周辺環境_コンテンツ -->
+            <div id="content4" class="l-contents -img l-mgb_20">
+                <img class="pc" src="images/bg/top-content06.png" alt="LOCATION 周辺環境 自然に恵まれ、大型店舗での買い物も便利な住みよい街。">
+                <img class="pc l-mgb_3" src="images/bg/top-content06b.png" alt="Education 数多くの保育施設に加え、小学校・中学校も近くて安心です。">
+                <img class="pc" src="images/bg/top-content06c.png" alt="Education 数多くの保育施設に加え、小学校・中学校も近くて安心です。">
+
+                <img class="sp" src="images/bg/top-content06_s.png" alt="LOCATION 周辺環境 自然に恵まれ、大型店舗での買い物も便利な住みよい街。">
+                <img class="sp" src="images/bg/top-content06b_s.png" alt="Education 数多くの保育施設に加え、小学校・中学校も近くて安心です。">
+                <img class="sp" src="images/bg/top-content06c_s.png" alt="Education 数多くの保育施設に加え、小学校・中学校も近くて安心です。">
+            </div>
+            <!-- contact*2 -->
+            <div class="l-contents -img-bg -contactArea l-mgb_10">
+                <img class="pc w1200 l-mgb_10" src="images/item/contact-title.png" alt="住まい探しのご相談・現地へのご見学など全て無料で承っております。">
+                <img class="sp l-mgb_5" src="images/item/contact-title_s.png" alt="住まい探しのご相談・現地へのご見学など全て無料で承っております。">
+                <div class="l-flex--area  w1200 -w65">
+                    <div class="l-flex--contents -contact-box">
+                        <div class="flexItem">
+                            <a class="l-linkImg -contact-box -box01" href="https://www.jyu-g.co.jp/contents/inquiry?checkid=712807995">
+                                <img src="images/btn/contact_box_01_w_new.png" alt="お問い合わせ">
+                            </a>
+                        </div>
+                        <div class="flexItem">
+                            <a class="l-linkImg -contact-box -box02" href="https://www.jyu-g.co.jp/contents/tour?checkid=712807995">
+                                <img src="images/btn/contact_box_02_w.png" alt="見学予約">
+                            </a>
                         </div>
                     </div>
                 </div>
             </div>
-            <!-- contact*4 -->
-            <div class="l-contents -img-bg -contactArea  l-mgb_20" data-aos="fade">
-                <div class="imgBox -bg">
-                    <img class="pc" src="images/bg/contact-bg.png" alt="お問い合わせはこちら">
-                    <img class="sp" src="images/bg/contact-bg_s.png" alt="">
-                </div>
-                <div class="l-contentsBox -contact_btnArea">
-                    <div class="l-flex--area w1200 -w65">
-                        <div class="l-flex--contents -contact-box">
-                            <div class="flexItem">
-                                <a class="l-linkImg -contact-box -box01" href="https://www.jyu-g.co.jp/contents/inquiry?checkid=712807995">
-                                    <img src="images/btn/contact_box_01_w_new.png" alt="お問い合わせ">
-                                </a>
-                            </div>
-                            <div class="flexItem">
-                                <a class="l-linkImg -contact-box -box02" href="https://www.jyu-g.co.jp/contents/tour?checkid=712807995">
-                                    <img src="images/btn/contact_box_02_w.png" alt="見学予約">
-                                </a>
-                            </div>
-                            <div class="flexItem">
-                                <a class="l-linkImg -contact-box -box03" href="https://www.jyu-g.co.jp/contents/regist?form_mode=1">
-                                    <img src="images/btn/contact_box_03_w.png" alt="会員登録">
-                                </a>
-                            </div>
-                            <div class="flexItem">
-                                <a class="l-linkImg -contact-box -box04" href="https://www.jyu-g.co.jp/contents/kantan">
-                                    <img src="images/btn/contact_box_04_new.png" alt="簡単資料請求">
-                                </a>
-                            </div>
+            <!-- 05_交通_コンテンツ -->
+            <div id="content5" class="l-contents -img l-mgb_20">
+                <img class="pc" src="images/bg/top-content07.png" alt="交通 通勤通学に便利な、2路線2駅利用可能です。東京メトロ有楽町線・副都心線の乗り入れがあり、乗換なしで都内主要駅までアクセスできます。">
+                <img class="pc" src="images/bg/top-content07b.png" alt="車でのお出かけも、関越自動車道と圏央道で、都心や郊外へスムーズアクセス。関越自動車道「鶴ヶ島IC」まで車で15分">
+
+                <img class="sp" src="images/bg/top-content07_s.png" alt="交通 通勤通学に便利な、2路線2駅利用可能です。東京メトロ有楽町線・副都心線の乗り入れがあり、乗換なしで都内主要駅までアクセスできます。">
+                <img class="sp" src="images/bg/top-content07b_s.png" alt="車でのお出かけも、関越自動車道と圏央道で、都心や郊外へスムーズアクセス。関越自動車道「鶴ヶ島IC」まで車で15分">
+            </div>
+            <!-- contact*2 -->
+            <div class="l-contents -img-bg -contactArea l-mgb_10">
+                <img class="pc w1200 l-mgb_10" src="images/item/contact-title.png" alt="住まい探しのご相談・現地へのご見学など全て無料で承っております。">
+                <img class="sp l-mgb_5" src="images/item/contact-title_s.png" alt="住まい探しのご相談・現地へのご見学など全て無料で承っております。">
+                <div class="l-flex--area  w1200 -w65">
+                    <div class="l-flex--contents -contact-box">
+                        <div class="flexItem">
+                            <a class="l-linkImg -contact-box -box01" href="https://www.jyu-g.co.jp/contents/inquiry?checkid=712807995">
+                                <img src="images/btn/contact_box_01_w_new.png" alt="お問い合わせ">
+                            </a>
+                        </div>
+                        <div class="flexItem">
+                            <a class="l-linkImg -contact-box -box02" href="https://www.jyu-g.co.jp/contents/tour?checkid=712807995">
+                                <img src="images/btn/contact_box_02_w.png" alt="見学予約">
+                            </a>
                         </div>
                     </div>
                 </div>
             </div>
+            <!-- 06_子育て支援制度_コンテンツ -->
+            <div class="l-contents -img l-mgb_10">
+                <img class="pc" src="images/bg/top-content08.png" alt="子育て支援制度 坂戸市では子育てに励むご家族を様々な角度からサポート。助成制度や支援事業が充実しています。">
+                <img class="sp" src="images/bg/top-content08_s.png" alt="子育て支援制度 坂戸市では子育てに励むご家族を様々な角度からサポート。助成制度や支援事業が充実しています。">
+            </div>
+            <!-- contact*2 -->
+            <div class="l-contents -img-bg -contactArea l-mgb_20">
+                <img class="pc w1200 l-mgb_10" src="images/item/contact-title.png" alt="住まい探しのご相談・現地へのご見学など全て無料で承っております。">
+                <img class="sp l-mgb_5" src="images/item/contact-title_s.png" alt="住まい探しのご相談・現地へのご見学など全て無料で承っております。">
+                <div class="l-flex--area  w1200 -w65">
+                    <div class="l-flex--contents -contact-box">
+                        <div class="flexItem">
+                            <a class="l-linkImg -contact-box -box01" href="https://www.jyu-g.co.jp/contents/inquiry?checkid=712807995">
+                                <img src="images/btn/contact_box_01_w_new.png" alt="お問い合わせ">
+                            </a>
+                        </div>
+                        <div class="flexItem">
+                            <a class="l-linkImg -contact-box -box02" href="https://www.jyu-g.co.jp/contents/tour?checkid=712807995">
+                                <img src="images/btn/contact_box_02_w.png" alt="見学予約">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
         </div>
     </div>
     <!-- 概要 / 通常  -->
@@ -326,7 +302,7 @@
     </footer>
 
     <script>
-        AOS.init();
+        // AOS.init();
         // モーダル関係
         $(function() {
             $(".iframe").colorbox({
@@ -335,23 +311,23 @@
                 height:"90%",
                 opacity: 0.7
             });
-            $(".access-slider").slick({
-                autoplay: true,
-                dots: true,
-                prevArrow: '<img src="images/slider/slider-arrow_left.png" class="slide-arrow prev-arrow">',
-                nextArrow: '<img src="images/slider/slider-arrow_right.png" class="slide-arrow next-arrow">',
-                responsive: [ // ブレイクポイントごとに設定を変更
-                    {
-                        breakpoint: 480,
-                        settings: {
-                            slidesToShow: 1,
-                            slidesToScroll: 1,
-                            cssEase: 'linear', // easing効果を指定
-                            centerMode: true, //要素を中央寄せ
-                        }
-                    }
-                ]
-            });
+            // $(".access-slider").slick({
+            //     autoplay: true,
+            //     dots: true,
+            //     prevArrow: '<img src="images/slider/slider-arrow_left.png" class="slide-arrow prev-arrow">',
+            //     nextArrow: '<img src="images/slider/slider-arrow_right.png" class="slide-arrow next-arrow">',
+            //     responsive: [
+            //         {
+            //             breakpoint: 480,
+            //             settings: {
+            //                 slidesToShow: 1,
+            //                 slidesToScroll: 1,
+            //                 cssEase: 'linear',
+            //                 centerMode: true,
+            //             }
+            //         }
+            //     ]
+            // });
         });
     </script>
 </body>
