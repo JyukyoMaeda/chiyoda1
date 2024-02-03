@@ -1,0 +1,51 @@
+
+// 画像表示用ポップアップ
+.lum{
+    &-closing,
+    &-opening{
+        animation: none !important;
+    }
+
+    &-lightbox{
+        transition: all 1s;
+        z-index: 999;
+        &-inner{
+            top: 50% !important;
+            left: 50% !important;
+            bottom: auto !important;
+            right: auto !important;
+            transform: translate(-50%, -50%) !important;
+            transition: all 1s;
+            img{
+                // filter: drop-shadow(1px 1px 5px rgba(0, 0, 0, 0.459));
+                @include mq(tb){
+                    width: 85%;
+                    max-width: 750px;
+                }
+            }
+        }
+        &-image-wrapper{
+            @include mq(sp){
+                width: 90vw !important;
+                height: 100% !important;
+                max-height: 100% !important;
+            }
+        }
+    }
+    &-gallery-button{
+        &::after{
+            @include mq(sp){
+                :after {
+                    width: 6vw;
+                    height: 6vw;
+                }
+            }
+        }
+    }
+    &-close-button{
+        display: none;
+        @include mq(sp){
+            opacity: 0.8;
+        }
+    }
+}

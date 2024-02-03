@@ -20,7 +20,18 @@
     }
 }
 
-
+.slick-prev {
+    left: 0 !important;
+    @include mq(tb){
+        left: -3% !important;
+    }
+}
+.slick-next {
+    right: 0 !important;
+    @include mq(tb){
+        right: -3% !important;
+    }
+}
 
 .slide-arrow {
     width: 3vw;

@@ -5,6 +5,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>GRANCIA 坂戸市千代田1丁目 garden house.</title>
+
+    <link rel="icon" href="images/favicon.ico">
+    <link rel="apple-touch-icon" type="image/png" href="images/apple-touch-icon.png">
+
     <!-- デプロイ前に確認・サンプル -->
     <meta name="keywords" content="坂戸市,東武東上線,坂戸駅,若葉駅,建売,住協">
     <meta name="description" content="利便とデザイン性に優れた4LDK。東武東上線「坂戸」駅および「若葉」駅の2駅利用可能。
@@ -19,14 +23,18 @@
 
     <script src="js/jquery-3.6.3.min.js"></script>
     <script src="js/query.colorbox-min.js"></script>
-    <!-- <script src="js/slick.min.js"></script> -->
+    <script src="js/slick.min.js"></script>
     <!-- <script src="js/aos.js"></script> -->
     <script src="js/menu.js"></script>
     <script src="js/pagetop.js"></script>
 
+    <!-- 2024_0203_追加 -->
+    <script src="js/luminous.min.js"></script>
+
+
     <!-- swiper関係 -->
-    <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
-    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script> -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
     <!-- //swiper関係 -->
 
 
@@ -111,13 +119,81 @@
                 </div>
             </div>
             <!-- 01_プラン_コンテンツ_01 -->
-            <div id="content1" class="l-contents -img-bg l-mgb_10 -s_5">
-                <div class="pc imgBox -parallax -parallax_planBg">
+            <div id="content1" class="l-contents -img-bg l-mgb_20 -s_5">
+                <div class="pc imgBox -parallax -parallax_planBg l-mgb_10 -s_5">
                     <img class="pc" src="images/bg/top-content02.png" alt="PLAN（間取り）ハイスタッド仕様で開放感のある天井高。">
                 </div>
-                <div class="sp imgBox">
+                <div class="sp imgBox l-mgb_10 -s_5">
                     <img class="sp" src="images/bg/top-content02_s.png" alt="PLAN（間取り）ハイスタッド仕様で開放感のある天井高。">
                 </div>
+
+                <!-- 2024_0203_追加　内観写真 -->
+                <div class="l-slider w1200 -s100 l-mgb_10 -s_5">
+                    <div class="concept-slider concept-slider01">
+                        <!-- <div class="slick-img l-slickImg"><img class="" src="images/slider/slider-item01.jpg" alt=""/></div>
+                        <div class="slick-img l-slickImg"><img class="" src="images/slider/slider-item02.jpg" alt=""/></div>
+                        <div class="slick-img l-slickImg"><img class="" src="images/slider/slider-item03.jpg" alt=""/></div>
+                        <div class="slick-img l-slickImg"><img class="" src="images/slider/slider-item04.jpg" alt=""/></div>
+                        <div class="slick-img l-slickImg"><img class="" src="images/slider/slider-item05.jpg" alt=""/></div>
+                        <div class="slick-img l-slickImg"><img class="" src="images/slider/slider-item06.jpg" alt=""/></div>
+                        <div class="slick-img l-slickImg"><img class="" src="images/slider/slider-item07.jpg" alt=""/></div>
+                        <div class="slick-img l-slickImg"><img class="" src="images/slider/slider-item08.jpg" alt=""/></div>
+                        <div class="slick-img l-slickImg"><img class="" src="images/slider/slider-item09.jpg" alt=""/></div>
+                        <div class="slick-img l-slickImg"><img class="" src="images/slider/slider-item10.jpg" alt=""/></div> -->
+
+                        <div class="slick-img l-slickImg"><a href="images/slider/slider-item01.jpg" class="luminous" data-lightbox="build-pic_in" data-title="リビング"><img src="images/slider/slider-item01.jpg"  alt="リビング"/></a></div>
+                        <div class="slick-img l-slickImg"><a href="images/slider/slider-item02.jpg" class="luminous" data-lightbox="build-pic_in" data-title="リビング"><img src="images/slider/slider-item02.jpg"  alt="リビング"/></a></div>
+                        <div class="slick-img l-slickImg"><a href="images/slider/slider-item03.jpg" class="luminous" data-lightbox="build-pic_in" data-title="リビング"><img src="images/slider/slider-item03.jpg"  alt="リビング"/></a></div>
+                        <div class="slick-img l-slickImg"><a href="images/slider/slider-item04.jpg" class="luminous" data-lightbox="build-pic_in" data-title="キッチン"><img src="images/slider/slider-item04.jpg"  alt="キッチン"/></a></div>
+                        <div class="slick-img l-slickImg"><a href="images/slider/slider-item05.jpg" class="luminous" data-lightbox="build-pic_in" data-title="キッチン"><img src="images/slider/slider-item05.jpg"  alt="キッチン"/></a></div>
+                        <div class="slick-img l-slickImg"><a href="images/slider/slider-item06.jpg" class="luminous" data-lightbox="build-pic_in" data-title="和室"><img src="images/slider/slider-item06.jpg"  alt="和室"/></a></div>
+                        <div class="slick-img l-slickImg"><a href="images/slider/slider-item07.jpg" class="luminous" data-lightbox="build-pic_in" data-title="洋室"><img src="images/slider/slider-item07.jpg"  alt="洋室"/></a></div>
+                        <div class="slick-img l-slickImg"><a href="images/slider/slider-item08.jpg" class="luminous" data-lightbox="build-pic_in" data-title="洋室"><img src="images/slider/slider-item08.jpg"  alt="洋室"/></a></div>
+                        <div class="slick-img l-slickImg"><a href="images/slider/slider-item10.jpg" class="luminous" data-lightbox="build-pic_in" data-title="脱衣所"><img src="images/slider/slider-item09.jpg"  alt="脱衣所"/></a></div>
+                        <div class="slick-img l-slickImg"><a href="images/slider/slider-item09.jpg" class="luminous" data-lightbox="build-pic_in" data-title="バスルーム"><img src="images/slider/slider-item10.jpg"  alt="バスルーム"/></a></div>
+                    </div>
+                </div>
+                <script>
+                    // スライダー関係
+                    $(function(){
+                        $(".concept-slider01").slick({
+                            lazyLoad: 'ondemand',
+                            centerPadding: '60px',
+                            slidesToShow: 3,
+                            slidesToScroll: 1,
+                            dots: true,
+                            responsive: [
+                                {
+                                breakpoint: 768,
+                                settings: {
+                                    arrows: false,
+                                    centerMode: true,
+                                    centerPadding: '40px',
+                                    slidesToShow: 3
+                                }
+                                },{
+                                    breakpoint: 480,
+                                    settings: {
+                                        arrows: false,
+                                        centerMode: true,
+                                        centerPadding: '40px',
+                                        slidesToShow: 1
+                                    }
+                                }
+                            ]
+                        });
+                    });
+                    // ポップアップ関係
+                    var luminousTrigger = document.querySelectorAll('.luminous');
+                    var options = {
+                        caption: function (trigger) {
+                            return trigger.querySelector('img').getAttribute('alt');
+                        },
+                    }
+                    if( luminousTrigger !== null ) {
+                        new LuminousGallery(luminousTrigger,{},options);
+                    }
+                </script>
             </div>
             <!-- contact*2 -->
             <div class="l-contents -img-bg -contactArea l-mgb_5">
